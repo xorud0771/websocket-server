@@ -22,7 +22,7 @@ wss.on("connection", function connection(ws) {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
   console.log(`🚀 서버 실행 중 (포트: ${PORT})`);
 });
